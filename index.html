@@ -1,131 +1,87 @@
 <!DOCTYPE html>
 <html>
-    <meta charset="utf-8">
-        <title>Project: Blog</title>
-    </head>
-    <style>
-    
-    body { background: rgb(245, 220, 150);}
-    
-      h1 { color:purple;
-          font-family:Georgia,serif;
-          text-decoration: underline;
-           font-size: 35px;
-      } 
-       #head{
-          background-color:orange;
-       } 
-        h2 { 
-         font-family: Georgia,serif;
+    <head>
+        <meta charset="utf-8">
+        <title>Project: Event invite</title>
+        <style>
+        body {
+             background: rgb(149, 240, 156); 
+         
         }
-        h3 { color:purple;
-            font-family:helvetica;
-            font-weight: bold;
+        h1 {font-family:"georgia",serif;
+          
+         padding: 5px;
+                width: 500px;
+                position: absolute;
+            top: 10px;
+           
         }
-         p { font-family:serif;
-          line-height: 1.5em;
-         }
-    
+          #picture { width:400px;
+          height:300px;
+                border: 6px double yellow;top: 300px;
+          } 
+          
+          #head { background-color:rgb(245, 233, 8);font-size:23px;
+          }
+          
+          .festival-info {
+            background: rgb(149, 240, 156); 
         
-    </style>
+          }
+          #festival {
+              font-family:cursive;font-size:20px;font-style:italic;
+
+           text-align: center;
+          }
+          #happy-hopper {
+              right: 80px;position: absolute;
+          }
+          #guest-list{
+               overflow-y: auto;
+            overflow-x: hidden;
+            margin: 15px 0px 10px 6px;
+               margin: 15px 0px 10px 6px;
+            border: 6px dashed rgb(240, 227, 40);
+            padding: 6px; 
+             background: rgb(209, 152, 109);
+          }
+          #title {
+               text-align: center;font-family:cursive;
+          }
+        </style>
+    </head>
     <body>
         
-        <h1>GIO's CODE BLOG</h1>
-
-        <h3><em>Contents</em></h3>
+        <h1 id="head">The SUMMER PARTY came back!
+        </h1>
+      
+                 <img id="picture"src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/seasonal/gingerbread-family.png">
+                 
+        <h2 id="title">Summer Festival Extravaganza</h2> 
+        <p id="festival">The details:</p>
         <ul>
-            <li>Project 1: Travel webpage</li>
-            <li>Project 2: Recipe book</li>
-            <li>Project 3: Lesson's Notes</li>
+            <li><strong>Experience the ultimate summer event, packed with exciting activities for all ages! From live music and vibrant cultural performances to food trucks serving delicious seasonal treats, there's something for everyone. Enjoy outdoor games, arts and crafts, and refreshing water activities under the sunny skies. As the day turns to evening, gather for a magical fireworks display to cap off the celebration. Don’t miss this unforgettable summer experience filled with fun, laughter, and community spirit!</strong></li>
         </ul>
-        
-        <table>
-            <thead>
-                <tr>
-                    <th> <a href="#travel">T.WEBPAGE</a></th>
-                    <th> <a href="#diet">RECIPE BOOK/</a></th>
-                    <th> <a href="#notes">BLOG NOTES</a></th>
-                </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <td>Place to Visit</td>
-                <td>Favorit meals</td>
-                <td>Take Notes</td>
-            </tr>
-                <tr>
-                <td>Main attractions there</td>
-                <td>Recipes Links</td>
-                <td>Track Progress</td>
-            </tr>
-                <tr>
-                <td>Pictures</td>
-                <td></td>
-                <td>Review<td>
-            </tr>
-                
-            </tbody>
-        </table>
-        
-        <h2 id="head">Travel Webpage:</h2>
-        <h6 id="travel">POSTED ON 19/01/2025 </h6>
-        
-        <p id="color">IN MY FIRST LESSON I CREATED A TRAVEL WEBPAGE!</p>
-        
-         <h3>Travel to Niagara Falls</h3>
-        <img src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/landscapes/waterfall_niagara-falls.png"width="350">
-        
-        <h3>Niagara Falls is truly <em>one-of-a-kind.</em>
-        </h3>
-        
-        <p> Niagara Falls State Park is the oldest state park in the U.S. Established in 1885 as the Niagara Reservation, it was the first of several such reservations that eventually became the cornerstones to the New York State Office of Parks, Recreation and Historic Preservation.
-        
-        <p> An astounding 3,160 tons of water flows over Niagara Falls every second. This accounts for 75,750 gallons of water per second over the American and Bridal Veil Falls and 681,750 gallons per second over the Horseshoe Falls.
-        <p> Water plunges at 32 feet per second over the Falls, hitting the base with 280 tons of force at the American and Bridal Veil Falls and 2,509 tons of force at the Horseshoe Falls.
-        <p> Niagara Falls is capable of producing over 4 million kilowatts of electricity, which is shared by the United States and Canada.
-        
-         <h3 id="attractions">Niagara Falls Attractions:</h3>
-    <ol>
-       <li><strong>Niagara Scenic Lake</strong></li>
-       <img src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/landscapes/lake.png"width="350">
        
-       <li><strong>Mountain of the Winds</strong></li>
-         <img src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/landscapes/mountain_matterhorn.png"width="350">
-       <li><strong>Aquarium of Niagara</strong></li>
-       <img src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/animals/shark.png"width="350">
-    
-     
-    </ol>
-        
-      <h2 id="head">Gio's Recipe Book:</h2>
-      <h6 id="diet">POSTED ON 17/01/2025 </h6>
-      <p id="color">IN THIS LESSON I DID MY FAVORITE MENU RECIPES</p>
-     
-     <img src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/food/pasta.png"width="450"> 
-        
-       <ol>
-    
-            <li><a href="https://www.bbcgoodfood.com/recipes/crisp-baked-potatoes"><em>Recipe:Baked Potato</em></a>
-            </li>
-            <li><a href="https://www.daringgourmet.com/feijoada/"><em>Recipe Feijoada</em></a></li>
-            <li><a href="https://www.eatalianwithroberto.com/real-carbonara-recipe/"><em>Source:True Carbonara</em></a></li>
-        </ol> 
-        
-         <h2 id="head">Lesson's Notes:</h2>
-      <h6 id="notes">POSTED ON 20/01/2025 </h6>
-      <p id="color">This Part is to take  notes about my progress in programming course and what I lernt and achieved.
-      </p>
-      <img src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/creatures/Hopper-Happy.png">
-      
-      <ol>
-          <li>In Travel Webpage Lesson I lernt about intro to CSS: selecting by idselecting by class,</li>
-            <li>In the Recipe Book Lesson, I lernt about HTML tables, links and internal links.</li>
-            <li>In the Blog Lessons I lernt about Text Properties: Font-family; Font styles; Font size; Font formats.</li>
-          
-      </ol>
-      
-      
       
     </body>
-</html>
+  
+   
+ <div id="guest-list"><h4 id="festival">GUEST LIST:</h4>
+     <img src="https://www.kasandbox.org/programming-images/avatars/Hopper-jumping.gif" id="happy-hopper">
+     
+    <li>Luiza Svizza 
+    <li>Guto Prado
+    <li>Alexander Fiorentino
+    <li>Maria Albuquerque
+    <li>Caio Papone
+    <li>Linda Sparita
+    <li>Giovanna Bellon
+    <li>Luiza Lonui
+    <li>Melissa Gui
+    <li>Ana Figueiredo
+    </li>
+        
+    </div>
+    </html>
 
